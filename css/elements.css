@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/font/Montserrat-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/font/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/font/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/font/OpenSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/font/OpenSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+h3{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+
+h5{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+h6{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 3rem;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.responsive-tables{
+    overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    margin: 5% auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+table tr{
+    border-collapse: collapse;
+    border: 1px solid rgb(216, 212, 212)
+}
+
+table caption{
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.Standard{
+    color: #ffff;
+    background-color: #656565;
+}
+
+.Professional{
+    color: #ffff;
+    background-color: #31B1CD;
+}
+
+.Premium{
+    color: #ffff;
+    background-color: #46BA9E;
+}
+
+.Supreme{
+    color: #ffff;
+    background-color: #E94700;
+}
+
+.plano{
+    height: 7rem;
+    text-transform: uppercase;
+}
+
+.preco{
+    height: 10.2rem;
+}
+
+.preco th{
+    font-size: 4.5rem;
+}
+
+.Conteudo{
+    height: 7.3rem;
+}
+
+th input{
+    width: 13.2rem;
+    height: 4.7rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+th p::first-letter{
+    text-transform: uppercase;
+}
+
+th p{
+    color: black;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeadingPage</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/classes.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu"role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+        <div class="menu-content">
+            <h1>NextClick</h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#top3">Intro</a></li>
+                    <li><a href="#trabalhos">Empregos</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                    <li><a href="#Planos">Planos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+   <section  id=intro  class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>janeiro nos traz o firefox 85</h2>
+                <p>Para encerrar janeiro, temos o orgulho de apresentar o lançamento do Firefox 85. Nesta versão, estamos oferecendo suporte para a pseudoclasse :focus-visible em CSS e ferramentas de desenvolvimento associadas, além da remoção completa do suporte a Flash do Firefox.</p>
+            </div>
+            <div class="intro-img">
+                <img src="img/javascript.svg" alt="Homem Segurando a logo do Css3, Mulher empurrando a logo JS, Homem Segurando Logo HTM5">
+            </div>
+        </div>
+   </section>
+   
+   <section id="top3" class="white-bg section">
+    <div class="main-content">
+        <div class="top3-content">
+            <h2>Novidades</h2>
+            <p>O lançamento dos Macs baseados em Apple Silicon no final do ano passado gerou uma onda de cobertura de notícias e algumas surpresas sobre o desempenho da máquina. Este post detalha algumas informações básicas sobre a experiência de portar o Firefox para rodar nativamente nessas CPUs.</p>
+            <p>Começaremos com algumas informações básicas sobre a transição do Mac e daremos uma visão geral dos detalhes internos do Firefox que você precisa saber sobre a nova arquitetura, antes de passar para o conceito de binários universais.</p>
+            <p>Em seguida, explicaremos como o DRM/EME funciona na nova plataforma, falaremos sobre nossa experiência com o macOS Big Sur e discutiremos vários problemas de atualização com os quais tivemos que lidar. Concluiremos com o lançamento e uma visão geral de várias outras melhorias que estão em andamento.</p>
+        </div>
+    </div>
+    </section>
+
+    <section id=trabalhos  class="main-bg section">
+        <div class="main-content trabalhos-content">
+                <h2>TOP 3 Empregos</h2>
+                <p>Aqui estão alguns trabalhos recentes.</p>
+            <div class="trabalhos-grid">
+                <article>
+                    <h3>Primeiro</h3>
+                    <p>Este botão adicionaria uma caixa à linha de caixas de conteúdo-chave abaixo do texto de introdução. Isso deve colocar a caixa lá, independentemente de onde o usuário esteja escrevendo no momento.</p>
+                </article>
+                <article>
+                    <h3>Segundo</h3>
+                    <p>Eu sugeriria ter um pop-up que pergunte onde na linha inserir a caixa (no começo ou no fim), qual título dar à caixa, qual texto colocar na caixa e para onde a caixa deve vincular. A caixa inteira deve servir como um link para a página de destino.</p>
+                </article>
+                <article>
+                    <h3>Terceiro</h3>
+                    <p>Você também pode incluir um atributo type contendo o tipo MIME do recurso, para que um navegador possa ver rapidamente quais recursos estão disponíveis e ignorar aqueles que não são suportados.</p>
+                </article>
+            </div>
+        </div>
+   </section>
+
+   <section id=galeria class="white-bg section">
+        <div class="main-content galeria-content">
+            <div class="galeria-heading">
+                <h2>Galeria</h2>
+                <p>Aqui estão algumas das minhas fotos.</p>
+            </div>
+            <div class="trabalhos-grid">
+                <article>
+                    <div class="galery-img">
+                        <img src="img/Galeria1.png" alt="">
+                    </div>
+                    <p>In pictures: Celebrities celebrate 50 years of 'SNL'</p>
+                </article>
+                <article>
+                    <div class="galery-img">
+                        <img src="img/Galeria2.png" alt="">
+                    </div>
+                    <p>In pictures: Revelers celebrate Carnival in Venice</p>
+                </article>
+                <article>
+                    <div class="galery-img">
+                        <img src="img/Galeria3.png" alt="">
+                    </div>
+                    <p>Pictures of the Day | February 17, 2025</p>
+                </article>
+                <article>
+                    <div class="galery-img">
+                        <img src="img/Galeria4.png" alt="">
+                    </div>
+                    <p>In pictures: Celebrity style at the BAFTAs</p>
+                </article>
+                <article>
+                    <div class="galery-img">
+                        <img src="img/Galeria5.png" alt="">
+                    </div>
+                    <p>In pictures: Valentine's Day around the world</p>
+                </article>
+                <article>
+                    <div class="galery-img">
+                        <img src="img/Galeria6.png" alt="">
+                    </div>
+                    <p>In pictures: Celebrities celebrate 50 years of 'SNL'</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+   <section id=Contato class="main-bg section">
+    <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contate-nos</h2>
+                <p>Tem alguma dúvida ou precisa de mais informações? Nossa equipe está pronta para te ajudar! Fale conosco pelos canais abaixo e responderemos o mais rápido possível.</p>
+            </div>
+            <div class="intro-img">
+                <img src="img/contact-us.svg" alt="Homem Segurando a logo do Css3, Mulher empurrando a logo JS, Homem Segurando Logo HTM5">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>contact-us</legend>
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input placeholder="First Name" type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input placeholder="Last Name" type="text" name="last-name" id="last-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input placeholder="You@email.com" type="email" name="email" id="email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea  placeholder="Your Messege"  name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar Mensagem</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <section id=Planos  class="white-bg section">
+        <div class="main-content">
+            <h2>Conheça nossos Planos</h2>
+            <div class="responsive-tables">
+                <table>
+                    <caption>Tabelas de preços</caption>
+                    <thead>
+                        <tr class="plano">
+                            <th>Standard</th>
+                            <th>Professional</th>
+                            <th>Premium</th>
+                            <th>Supreme</th>
+                        </tr>
+                        </thead>
+                    <tbody>
+                        <tr class="preco">
+                            <th class="Standard">9R$</th>
+                            <th class="Professional">15R$</th>
+                            <th class="Premium">20R$</th>
+                            <th class="Supreme">30R$</th>
+                        </tr>
+                        <tr class="Conteudo">
+                            <th>10GB<p>disk space</p></th>
+                            <th>20GB<p>disk space</p></th>
+                            <th>30GB<p>disk space</p></th>
+                            <th>Unlimited<p>disk space</p></th>
+                        </tr>
+                        <tr class="Conteudo">
+                            <th>200GB <p>bandwidth</p></th>
+                            <th>30GB <p>bandwidth</p></th>
+                            <th>500GB <p>bandwidth</p></th>
+                            <th>Unlimited <p>bandwidth</p></th>
+                        </tr>
+                        <tr class="Conteudo">
+                            <th>20 <p>email accounts</p></th>
+                            <th>30 <p>email accounts</p></th>
+                            <th>50 <p>email accounts</p></th>
+                            <th>Unlimited <p>email accounts</p></th>
+                        </tr>
+                        <tr class="Conteudo">
+                            <th>Unlimited <p>subdomains</p></th>
+                            <th>Unlimited <p>subdomains</p></th>
+                            <th>Unlimited <p>subdomains</p></th>
+                            <th>Unlimited <p>subdomains</p></th>
+                        </tr>
+                        <tr class="Conteudo">
+                            <th>Full <p>time support</p></th>
+                            <th>Full <p>time support</p></th>
+                            <th>Full <p>time support</p></th>
+                            <th>Full <p>time support</p></th>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="Assinar">
+                            <th><input class="Standard" type="button" value="Assinar"></th>
+                            <th><input class="Professional" type="button" value="Assinar"></th>
+                            <th><input class="Premium" type="button" value="Assinar"></th>
+                            <th><input class="Supreme" type="button" value="Assinar"></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+   </section>
+    <footer>
+        <p>Desenvolvido por <b>Daniel Sousa</b></p>
+    </footer>
+
+    <a class="back-top" href="#intro">▶</a>
+</body>
+</html>
